@@ -1,5 +1,6 @@
 # tomato
 import time
+from tomatoload.py import tomato_load
 
 class tomato:
   def __init__(self, name, strand, main_weapon, secondary): # tomato strand is like class: mage, warrior, etc
@@ -8,6 +9,7 @@ class tomato:
     self.main = main_weapon
     self.side = secondary
 
+tomato_load(5)
 name = input("[tomato]: enter name: ")
 strand = input("[tomato]: enter strand (warrior (slice & dice), mage (majik), ranger (arrow dude), spy (sneaky), operative (secret government agent)): ").lower().split()
 
