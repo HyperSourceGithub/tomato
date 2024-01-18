@@ -7,4 +7,4 @@ class tomato:
 
 name = input("[tomato]: enter name: ")
 tomato = tomato(name)
-print("[tomato]: initialized")
+print(f"[tomato]: initialized tomato with name [{tomato.name}]")
