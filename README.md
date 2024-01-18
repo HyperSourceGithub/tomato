@@ -4,6 +4,7 @@
 
 this is my goofiest project yet lol <br/>
 also this might actually turn into an entire, full-fledged and supported game
+why does github not let me publish releases under the same tag :(
 
 #### rules: 
 1. all commits must start with "tomato"
