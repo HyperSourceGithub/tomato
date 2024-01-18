@@ -3,7 +3,7 @@
 ###### i dont know why i made this lol
 
 this is my goofiest project yet lol <br/>
-also this might actually turn into an entire, full-fledged and supported game
+also this might actually turn into an entire, full-fledged and supported game <br/>
 why does github not let me publish releases under the same tag :(
 
 #### rules: 
