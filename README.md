@@ -7,3 +7,7 @@ also this might actually turn into an entire, full-fledged and supported game
 
 #### rules: 
 1. all commits must start with "tomato"
+2. tomato.
+3. tomato.
+4. tomato.
+5. tomato sauce?
