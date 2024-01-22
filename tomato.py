@@ -12,8 +12,9 @@ def tomato_load(rep):
         time.sleep(0.1)
 
 class game:
-    def __init__():
-        lore = '''A long, long, long, l o n g, time ago, a simple adventurer going by the name of \"padtole the tadpole\" found a tomato holding a gun.
+    def __init__(self, randomthing):
+        self.randomthing = randomthing
+        self.lore = '''A long, long, long, l o n g, time ago, a simple adventurer going by the name of \"padtole the tadpole\" found a tomato holding a gun.
 They then had a duel thing.
 ------------------------------------------
 🍅🔫🐸🔫🍅 la la la pew pew aaa boom boom
@@ -39,7 +40,7 @@ class tomato:
     self.main = main_weapon
     self.side = secondary
 
-game = game()
+gametomato = game(randomthing="tomato")
 tomato_load(30)
 os.system('clear')
 print("tomato loaded.")
@@ -81,4 +82,4 @@ _________ _______  _______  _______ _________ _______
    | |   | (___) || )   ( || )   ( |   | |   | (___) |
    )_(   (_______)|/     \||/     \|   )_(   (_______)
 A game of epic proportions.''')
-print(game.lore)
+print(gametomato.lore)
