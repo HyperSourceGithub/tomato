@@ -11,6 +11,27 @@ def tomato_load(rep):
         print('\r\033[K%s loading tomato...' % symbols[i], flush=True, end='')
         time.sleep(0.1)
 
+class game:
+    def __init__():
+        lore = '''A long, long, long, l o n g, time ago, a simple adventurer going by the name of \"padtole the tadpole\" found a tomato holding a gun.
+They then had a duel thing.
+------------------------------------------
+🍅🔫🐸🔫🍅 la la la pew pew aaa boom boom
+------------------------------------------
+It was won by the tomato.
+-----------------------------------------
+   _______________
+  / ☠️ ☠️ ☠️ ☠️ ☠️ \
+ | ☠️ ☠️ ☠️ R.I.P. |
+ |   Padtole       |
+ |   (Tadpole)     |
+  \ ☠️ ☠️ ☠️ ☠️ ☠️ /
+------------------------------------------
+Since then, rivalries have existed between tomatoes and tadpoles.
+YOUR TASK: walk through places and go pew pew. '''
+
+
+# tomato tomahto calss
 class tomato:
   def __init__(self, name, strand, main_weapon, secondary): # tomato strand is like class: mage, warrior, etc
     self.name = name
@@ -18,6 +39,7 @@ class tomato:
     self.main = main_weapon
     self.side = secondary
 
+game = game()
 tomato_load(30)
 os.system('clear')
 print("tomato loaded.")
@@ -49,3 +71,14 @@ side = input("[tomato]: enter a side weapon of your choice: ")
 
 tomato = tomato(name, strand.capitalize(), main.capitalize(), side.capitalize())
 print(f"[tomato]: initialized tomato with name [{tomato.name}], strand [{tomato.strand}], main [{tomato.main}], and side [{tomato.side}]")
+print('''Welcome to...
+_________ _______  _______  _______ _________ _______ 
+\__   __/(  ___  )(       )(  ___  )\__   __/(  ___  )
+   ) (   | (   ) || () () || (   ) |   ) (   | (   ) |
+   | |   | |   | || || || || (___) |   | |   | |   | |
+   | |   | |   | || |(_)| ||  ___  |   | |   | |   | |
+   | |   | |   | || |   | || (   ) |   | |   | |   | |
+   | |   | (___) || )   ( || )   ( |   | |   | (___) |
+   )_(   (_______)|/     \||/     \|   )_(   (_______)
+A game of epic proportions.''')
+print(game.lore)
