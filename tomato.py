@@ -83,3 +83,17 @@ _________ _______  _______  _______ _________ _______
    )_(   (_______)|/     \||/     \|   )_(   (_______)
 A game of epic proportions.''')
 print(gametomato.lore)
+
+path = input("[tomato] choose path (forest, volcano, underground)").lower().strip()
+
+while True:
+  if path == "forest":
+    pass
+  elif path == "volcano":
+    pass
+  elif path == "underground":
+    pass
+  else:
+     print("[tomato] bruh.")
+     break
+  
